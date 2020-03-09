@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: OofersonMC Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -90,7 +90,7 @@ defaultContentLanguage: en
 # localhost should automatically work.
 #
 # Example: https://status.example.com/
-baseURL: https://cstate.mnts.lt
+baseURL: https://stats.ooferson.xyz
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -121,11 +121,11 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
+    - name: Minecraft
+      description: The Minecraft servers are located here.
       closed: true
-    - name: East Coast      
-    - name: Uncategorized
+    - name: Website      
+    - name: GitHub
       untitled: true
 
   # These are your systems. Change them to
@@ -155,7 +155,7 @@ params:
   # dateFormat Default: "January 2, 2006 at 3:04 PM"
   # shortDateFormat Default: "15:04 — Jan 2"
   dateFormat: January 2, 2006 at 3:04 PM
-  shortDateFormat: 15:04 — Jan 2
+  shortDateFormat:  Jan 2 — 15:04 
 
   # What header design should we use?
   #
@@ -185,7 +185,7 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  disableDarkMode: false
+  disableDarkMode: true
 
   # Should we show the logo or the title
   # of the status page?
@@ -208,16 +208,16 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
+  description: We continuosly monitor our servers. If one goes oof, we will post a note here.
 
   # Tabs on homepage
   # Uncomment to enable.
-  #
-  # Format:
-  # customTabs:
-  #  -
-  #    name: Name
-  #    link: https://example.com
+ 
+      Format:
+      customTabs:
+    -
+      name: OofersonMC Status
+      link: https://stats.ooferson.xyz
 
   # Disable complex server-side
   # calculations that may impact
